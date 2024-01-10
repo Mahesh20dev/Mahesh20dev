@@ -1,0 +1,31 @@
+/* it is a css file which provides styling to html code ,we can also do styling within html code also */
+body{
+    background-color: lightblue;
+    text-align: left;
+}
+table,th,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    /* above function border collapse is used to make table borders with single line */
+    width: 250px;
+    border-spacing: 5px;
+    padding: 10px;
+}
+p b{
+    color: black;
+}
+ul{
+    text-align: left;
+}
+.highlight{
+    color: green;
+}
+p{
+    text-align: center;
+}
+/* *{
+    color: black;
+} */
+#list{
+    color: magenta;
+}
