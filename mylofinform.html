@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="refresh" content="5">ta
+    <title>MY Login page</title>
+</head>
+<body>
+    <h3>LOGIN FORM </h3>
+    <form action="form.html" method="post">
+        <fieldset>
+        <h4><b>Messege</b></h4>
+        <p>please convey your message</p>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="enter your message"></textarea><br>
+        <br>
+        <button onclick="alert('your message sent')"taget="_blank">Submit</button>
+        </fieldset><br>
+        <br>
+        <fieldset>
+            <legend>Log-in details</legend>
+        <label for="DOB"><b>Date of Birth</b></label>
+        <input type="date" name="DOB"><br>
+        <br>
+        <label for="Gender"><b>Gender</b></label>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio"name="Gender" value="Female">Female
+        <input type="radio"name="Gender" value="Other">Other <br>
+        <br>
+        <label for="city"><b>City</b></label>
+        <datalist id="city">
+        <select name="City">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+         </datalist>
+         <input type="text" name="city" list="city"><br>
+        <br>
+        <label for="email"><b>Email</b></label>
+        <input type="email" name="email"><br>
+        <br>
+        <label for="passd"><b>Password </b></label>
+        <input type="password" name="passd"><br>
+        <br>
+        <input type="reset">
+        <br>
+        <button onclick="alert('Login successful')"><b>Login</b></button>
+        </fieldset>
+
+
+    </form>
+    
+</body>
+</html>
